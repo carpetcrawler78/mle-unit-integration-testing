@@ -1,0 +1,7 @@
+pytest==9.0.2
+ipytest==0.14.2
+jupyter==1.1.1
+pandas==3.0.1
+typer==0.24.1
+sqlalchemy==2.0.48
+scikit-learn==1.8.0
