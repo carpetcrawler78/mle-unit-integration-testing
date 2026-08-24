@@ -10,4 +10,7 @@
 # - src/example/example_file_solution.py
 
 def add_one(number):
-    return "TODO: Implement me!"
+    if isinstance(number,(int, float)):
+        return number +1
+    else:
+        raise TypeError(f"Expected int or float, got {type(number).__name__}")
